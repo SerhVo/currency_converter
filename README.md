@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/697663ab-c496-4ef5-85bc-03a7bbaef64d)
+
 
 # currency_converter
 
