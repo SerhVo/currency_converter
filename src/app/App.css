@@ -7,6 +7,7 @@ input {
   border: none;
   cursor: pointer;
   color: rgb(16, 20, 247);
+  background-color: #5f9fff24;
 }
 
 html,
@@ -15,11 +16,8 @@ body {
 }
 
 body {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: rgba(105, 105, 105, 0.158);
+
 }
 
 .app {
@@ -30,6 +28,13 @@ body {
   padding: 10px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+      background-image: linear-gradient(to right,
+            rgba(238, 249, 142, 0.7),
+            rgba(77, 91, 248, 0.652));
+        background-repeat: no-repeat;
+ 
+ 
 }
 
 .app_conteiner {
@@ -37,6 +42,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 20px;
+  
 }
 
 .app_conteiner1 {
@@ -50,6 +56,7 @@ body {
   /* height: 100px; */
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   background-color: #e6e6e6;
   text-align: center;
   line-height: 100px;
@@ -59,7 +66,9 @@ body {
 
 .app_text {
   font-size: 28px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 .app_text2 {
   color: blue;
   font-size: 20px;
@@ -75,4 +84,19 @@ body {
   cursor: pointer;
   background-color: #6b7a8f;
   color: white;
+  border: 1px solid #7b828b;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #7b828b;
+  color: rgb(0, 0, 0);
+}
+
+.active {
+  border: 1px solid #3bf801 !important;
+   box-shadow: 5px 5px 10px rgb(56, 246, 3) !important;
+  color:#3bf801 !important;
 }

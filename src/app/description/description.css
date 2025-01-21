@@ -1,0 +1,55 @@
+.descr-container {
+    margin-top: 50px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.descr-container::after {
+    content: "";
+    background-image: linear-gradient(to right,
+            rgba(252, 0, 243, 0.123),
+            rgba(226, 250, 41, 0.199)), url("../vite.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.descr {
+    color: rgb(32, 32, 75);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.descr-name {
+    font-size: 28px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.descr-capt {
+    font-size: 20px;
+}
+
+
+
+.descr-text {
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.descr-text-small {
+    font-size: 14px;
+}
